@@ -58,7 +58,30 @@ The deployment was successfully completed and verified:
 - Both instances registered as healthy in the Target Group.
 - Application Load Balancer successfully served the website.
 - Auto Scaling Group configured with CPU target tracking.
+## Project Screenshots
+Add project screenshots to README
+## Project Screenshots
 
+### Website
+![Website](screenshots/website.png)
+
+### EC2 Instances
+![EC2 Instances](screenshots/Ec2-instances.png)
+
+### Load Balancer
+![Load Balancer](screenshots/load-balancer.png)
+
+### Target Group
+![Target Group](screenshots/target-group.png)
+
+### Auto Scaling Group
+![Auto Scaling](screenshots/autoscaling-group.png)
+
+### CloudFormation Outputs
+![CloudFormation](screenshots/cloudformation-outputs.png)
+
+### S3 Buckets
+![S3 Buckets](screenshots/s3-buckets.png)
 ## What I Learned
 
 - Creating AWS infrastructure using CloudFormation YAML.
