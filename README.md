@@ -9,7 +9,7 @@ The infrastructure is created automatically using an Infrastructure as Code (IaC
 ## AWS Architecture
 
 **Traffic flow:**
-
+![AWS Architecture](screenshots/architecture.png)
 Internet → Application Load Balancer → Target Group → EC2 Instances
 
 The EC2 instances run across two Availability Zones to improve availability.
