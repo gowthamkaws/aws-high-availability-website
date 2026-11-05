@@ -59,7 +59,6 @@ The deployment was successfully completed and verified:
 - Application Load Balancer successfully served the website.
 - Auto Scaling Group configured with CPU target tracking.
 ## Project Screenshots
-## Project Screenshots
 
 ### Website
 ![Website](screenshots/website.png)
