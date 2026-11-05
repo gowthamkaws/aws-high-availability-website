@@ -80,6 +80,18 @@ The deployment was successfully completed and verified:
 
 ### S3 Buckets
 ![S3 Buckets](screenshots/s3-buckets.png)
+
+## Future Improvements
+
+- Add HTTPS using AWS Certificate Manager (ACM) on the ALB.
+- Move EC2 instances to private subnets and use a NAT Gateway for outbound access.
+- Add an RDS database for a dynamic application.
+- Migrate the workload to containers using Docker and Amazon ECS.
+
+## Cleanup
+
+To avoid charges, delete the CloudFormation stack after testing. This removes the resources it created, and the S3 template bucket can be emptied and deleted separately.
+
 ## What I Learned
 
 - Creating AWS infrastructure using CloudFormation YAML.
